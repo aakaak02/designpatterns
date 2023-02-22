@@ -15,7 +15,7 @@ public class JavapatternsApplication {
 		Parser parser = parserFactory.process("BA");
 		//Parser parser1 = parserFactory.process("JPMC");
 		//Parser parser2 = parserFactory.process("WFC");
-		System.out.println("End testing");
+		System.out.println("End testing");//test
 	}
 
 }
