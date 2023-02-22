@@ -10,11 +10,12 @@ public class JavapatternsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JavapatternsApplication.class, args);
-		System.out.println("test");
+		System.out.println("Begin testing");
 		ParserFactory parserFactory = new ParserFactory();
 		Parser parser = parserFactory.process("BA");
-		Parser parser1 = parserFactory.process("JPMC");
-		Parser parser2 = parserFactory.process("WFC");
+		//Parser parser1 = parserFactory.process("JPMC");
+		//Parser parser2 = parserFactory.process("WFC");
+		System.out.println("End testing");
 	}
 
 }
